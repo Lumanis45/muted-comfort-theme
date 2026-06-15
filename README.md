@@ -8,7 +8,7 @@ A modern, muted, and eye-friendly color scheme for Alacritty. Inspired by the co
 
 ## Preview
 
-![Muted Comfort Theme Preview](screenshot.png)
+![Muted Comfort Theme Preview](./preview/terminal.png)
 
 ### 1. 
 1. Create folder for themes: `mkdir -p ~/.config/alacritty/muted-comfort-theme`.
