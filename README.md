@@ -12,7 +12,7 @@ A modern, muted, and eye-friendly color scheme for Alacritty. Inspired by the co
 
 ### 1. 
 1. Create folder for themes: `mkdir -p ~/.config/alacritty/muted-comfort-theme`.
-2. Clone this repository: `git clone https://github.com/Lumanis45/muted-comfort-theme.git ~/.config/alacritty/themes`.
+2. Clone this repository: `git clone https://github.com/Lumanis45/muted-comfort-theme.git ~/.config/alacritty/muted-comfort-theme`.
 3. Import theme in config:
 ```toml
 [general]
