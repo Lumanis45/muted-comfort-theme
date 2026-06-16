@@ -9,19 +9,15 @@ A modern, muted, and eye-friendly color scheme for Alacritty. Inspired by the co
 ## Preview
 
 ![Muted Comfort Theme Preview](./preview/terminal.png)
+![Muted Comfort Theme Hyprland](./preview/hyprland0.png)
 
 ## Installation
-1. Create folder for themes: `mkdir -p ~/.config/alacritty/muted-comfort-theme`.
-2. Clone this repository: `git clone https://github.com/Lumanis45/muted-comfort-theme.git ~/.config/alacritty/muted-comfort-theme`.
-3. Import theme in config:
-```toml
-[general]
-import = [
-    "~/.config/alacritty/muted-comfort-theme/muted-comfort.toml"
-]
+---
+
+```bash
+hyprthemer install Lumanis45/muted-comfort
 ```
 
----
 
 ## Описание на русском
 

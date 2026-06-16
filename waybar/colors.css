@@ -1,0 +1,18 @@
+/* Muted-Comfort-Theme */
+
+@define-color bg #0f0e0e;
+@define-color bg_light #1c1a1a;
+@define-color bg_border #2b2929;
+@define-color fg #adadad;
+@define-color fg_muted #7a7a7a;
+@define-color selection_bg #2c3a47;
+
+@define-color red #a33f37;
+@define-color orange #e68337;
+@define-color yellow #bfad43;
+@define-color green #5fa337;
+@define-color teal #2d9c87;
+@define-color blue #3595c4;
+@define-color violet #7654b8;
+@define-color magenta #af46bd;
+@define-color cyan #21bdbf;

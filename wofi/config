@@ -1,0 +1,7 @@
+hide_scroll=true
+mode=run
+width=30%
+lines=10
+line_wrap=word
+term=alacritty
+location=center

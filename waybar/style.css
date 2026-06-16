@@ -1,0 +1,64 @@
+/* Source: https://github.com/Andrey0189/arch-dotfiles/blob/master/.config/waybar/style.css */
+@import url("colors.css");
+
+* {
+  border: none;
+  border-radius: 0px;
+  font-family: "JetBrainsMono Nerd", monospace;
+  font-weight: bold;
+  font-size: 16px;
+  min-height: 0;
+  color: @fg;
+  margin: 0;
+  padding: 0;
+}
+
+window#waybar {
+  background: @bg;
+}
+
+#workspaces button label{
+  padding: 0 20px;
+}
+
+#workspaces button.active label {
+  color: @bg;
+}
+
+#workspaces button:hover {
+  background: @bg;
+}
+
+#workspaces button.active {
+  background: @red;
+}
+
+#clock, #battery, #pulseaudio, #tray, #language {
+  padding: 0 10px;
+}
+
+#language {
+  color: @yellow;
+  border-bottom: 5px solid @yellow;
+}
+
+#pulseaudio {
+  color: @orange;
+  border-bottom: 5px solid @orange;
+}
+
+#pulseaudio.muted {
+  padding: 0 20px;
+  color: @red;
+  border-bottom: 5px solid @red;
+}
+
+#clock {
+  color: @red;
+  border-bottom: 5px solid @red;
+}
+
+#tray {
+  color: @orange;
+  border-bottom: 5px solid @orange;
+}

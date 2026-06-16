@@ -1,0 +1,42 @@
+/*
+ * Muted-Comfort-Theme
+ * Author: Lumanis45
+*/
+
+/* Base colors */
+@define-color bg #0f0e0e;
+@define-color fg #adadad;
+
+/* Normal colors */
+@define-color black   #000000;
+@define-color red     #a33f37;
+@define-color orange  #e68337;
+@define-color yellow  #bfad43;
+@define-color green   #5fa337;
+@define-color teal    #2d9c87; 
+@define-color blue    #3595c4;
+@define-color violet  #7654b8;
+@define-color magenta #af46bd;
+@define-color cyan    #21bdbf;
+@define-color grey    #545454;
+@define-color white   #c7d1d1;
+
+/* Bright colors */
+@define-color black_h   #282828;
+@define-color red_h     #c9544d;
+@define-color orange_h  #de8818;
+@define-color yellow_h  #cfbe53;
+@define-color green_h   #78c44d;
+@define-color teal_h    #42bdab;
+@define-color blue_h    #4faad6;
+@define-color violet_h  #906ee0;
+@define-color magenta_h #bf5ec9;
+@define-color cyan_h    #3ccfd1;
+@define-color grey_h    #7a7a7a;
+@define-color white_h   #e0e0e0;
+
+/* UI & Muted Accents */
+@define-color bg_light     #1c1a1a; 
+@define-color bg_border    #2b2929;
+@define-color fg_muted     #7a7a7a;
+@define-color selection_bg #2c3a47;

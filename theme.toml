@@ -1,0 +1,15 @@
+name   		= "muted-comfort"
+author 		= "Lumanis45"
+description 	= "Modern theme, with muted colors like gruvbox/everforest."
+version 	= "1.0"
+
+dependencies = ["hyprland", "alacritty", "waybar", "wofi"]
+
+[mapping]
+"hyprland"  = "~/.config/hypr"
+"alacritty" = "~/.config/alacritty"
+"waybar"    = "~/.config/waybar"
+"wofi"	    = "~/.config/wofi"
+
+[hooks]
+post_install = "hyprctl reload && pkill waybar; waybar > /dev/null 2>&1 & echo \"Done! Open ~/.config/hypr/hyprpaper.conf and change path to your wallpaper.\""
