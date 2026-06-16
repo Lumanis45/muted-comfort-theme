@@ -13,7 +13,7 @@ A modern, muted, and eye-friendly color scheme for Alacritty. Inspired by the co
 
 ## Installation
 ---
-
+The theme is installed via [hyprthemer](https://github.com/Lumanis45/hyprthemer#)
 ```bash
 hyprthemer install Lumanis45/muted-comfort
 ```
